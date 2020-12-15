@@ -1,0 +1,36 @@
+@import '../Helpers/mixins';
+@import '../Helpers/vars';
+
+nav.navbar{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    margin: 0 0 0 20px;
+    a{
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 4px #0000005d;
+          &:hover {
+            color: #FF00FF;
+          }
+
+          &.active {
+            text-decoration: underline greenyellow;
+            
+          }
+        
+    }
+
+    .searchBox{
+        font-size: 30px;
+        border: none;
+    }
+
+    button{
+        font-size: 21px;
+        border: solid 2px greenyellow;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+}
+
